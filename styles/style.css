@@ -1,6 +1,29 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@400;500&family=Ubuntu&display=swap');
+/* top players style */
+body{
+    background-color: #F3F1FF;
+    font-family: 'Oswald', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px;
+    
+}
+.player-title{
+    color: #562EFF;
+    font-size: 24px;
+    width: 127px;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    
 }
 .player{
     display: flex;
@@ -9,4 +32,7 @@
 .player img{
     width: 56px;
     height: 56px;
+}
+.player-name{
+    margin-left: 16px;
 }
